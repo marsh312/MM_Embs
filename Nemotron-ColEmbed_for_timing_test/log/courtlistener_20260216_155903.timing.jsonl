@@ -1,0 +1,6 @@
+{"tag": "timing", "ts": "2026-02-16T07:59:16.947318+00:00", "event": "run_start", "source": "courtlistener", "batch_size": 32, "k": 200, "score_batch_size": 100, "corpus_chunk_size": 1000, "score_inner_batch_size": 128, "model_path": "/share/project/shared_models/nemotron-colembed-vl-4b-v2", "output_dir": "/share/project/liuze/projects/contextual_mmemb/data/generated_QAs/testdatas_results/Nemotron-ColEmbed-new-env_VL-4B-V2/courtlistener"}
+{"tag": "timing", "ts": "2026-02-16T07:59:48.964521+00:00", "event": "data_load_end", "num_queries": 15, "num_images": 420, "elapsed_s": 0.912076}
+{"tag": "timing", "ts": "2026-02-16T08:00:32.987291+00:00", "event": "score_batch", "batch_idx": 0, "num_batches": 1, "query_start": 0, "query_batch_size": 15, "corpus_chunk_size": 1000, "score_inner_batch_size": 128, "num_corpus_chunks": 1, "elapsed_s": 0.447754}
+{"tag": "timing", "ts": "2026-02-16T08:00:32.987523+00:00", "event": "score_all_end", "num_batches": 1, "elapsed_s": 0.448114}
+{"tag": "timing", "ts": "2026-02-16T08:00:33.284287+00:00", "event": "save_results_end", "elapsed_s": 0.296707}
+{"tag": "timing", "ts": "2026-02-16T08:00:33.284381+00:00", "event": "run_end", "total_elapsed_s": 76.343097}
